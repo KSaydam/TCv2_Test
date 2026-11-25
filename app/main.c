@@ -8,7 +8,7 @@
 
 static long add(long a, long b)
 {
-    return a - b;
+    return a + b;
 }
 
 static long clamp(long v, long lo, long hi)
