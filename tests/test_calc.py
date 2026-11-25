@@ -31,3 +31,7 @@ def test_clamp_below_and_above():
 
 def test_bad_usage_exits_with_2():
     assert run("multiply", 2, 3).returncode == 2
+
+
+def test_add_zero():
+    assert run("add", 0, 0).stdout.strip() == "0"
